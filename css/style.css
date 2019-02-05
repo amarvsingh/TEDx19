@@ -152,7 +152,7 @@ a:hover, a:active, a:focus {
 }
 
 .overlay {
-  /*background: #304352;*/
+  /*background: #000;*/
   background: gray;
   opacity: 0.9;
   position: absolute;
@@ -224,7 +224,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #304352;
+  color: #000;
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -283,11 +283,11 @@ a:hover, a:active, a:focus {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #304352;
+  background-color: #000;
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #304352 !important;
+    color: #000 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -299,7 +299,7 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #304352;
+    color: #000;
     background-color: transparent;
 }
 
@@ -325,7 +325,7 @@ a:hover, a:active, a:focus {
   .navbar-default .navbar-nav li.active a {
     background: transparent;
     background: none;
-    color: #304352 !important;
+    color: #000 !important;
   }
   .navbar-default .navbar-nav li.active a span:before {
     visibility: visible;
@@ -422,7 +422,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb:hover {
-  background: #304352;
+  background: #000;
 }
 
 #about .team-thumb:hover .image-holder {
@@ -1061,3 +1061,17 @@ section {
   padding: 100px 0;
 }
 
+
+#counter {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+.redfontb {
+	color: #E62B1E;
+	font-weight: bold;
+}
+
+@media (max-device-width:480px) and (orientation:landscape){.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse{max-height:250px}}
