@@ -239,8 +239,8 @@ footer {
     text-transform: uppercase;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .navbar-default .navbar-nav li a span {
