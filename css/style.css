@@ -68,7 +68,7 @@ p {
 
 #home p,
 #contact p, footer p {
-  color: BLACK;
+  color: white;
 }
 
 .btn {
@@ -500,7 +500,7 @@ footer {
   color: #ffffff;
 }
  footer {
-  background: WHITE;
+  background: black;
   color: #ffffff;
 }
 
