@@ -748,7 +748,12 @@ footer {
 	background-color: white!important;
 	color: #E62B1E!important;
 }
+.navbar-default .navbar-nav > .no a:hover {
+	border-radius: 5px;	
+	background-color: white!important;
+	color: red!important;
 
+}
 i {
   /*border: solid black;*/
   border-width: 0 3px 3px 0;
