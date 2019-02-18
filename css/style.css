@@ -728,12 +728,12 @@ footer {
 
 .navbar-default .navbar-nav > li.active {
 	border-radius: 5px;
-	background-color: #E62B1E; 
+	background-color: white!important;
+	color:red!important;
 }
 
 .navbar-default .navbar-nav > li a:hover {
-	border-radius: 5px;
-	
+	border-radius: 5px;	
 	background-color:white!important;
 	color:red!important;
 
