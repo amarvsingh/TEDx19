@@ -495,7 +495,11 @@ footer {
     Contact section              
 -----------------------------------------*/
 
-#contact, footer {
+#contact {
+  background: black;
+  color: #ffffff;
+}
+ footer {
   background: WHITE;
   color: #ffffff;
 }
