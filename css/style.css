@@ -728,15 +728,25 @@ footer {
 
 .navbar-default .navbar-nav > li.active {
 	border-radius: 5px;
-	background-color: white!important;
-	color:red!important;
+	background-color: #E62B1E;
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > .fa.active {
+	border-radius: 5px;
+	background-color: #E62B1E;
+	color: #fff;
 }
 
 .navbar-default .navbar-nav > li a:hover {
 	border-radius: 5px;	
-	background-color:white!important;
-	color:red!important;
+	background-color: #E62B1E;
+	color: #fff;
 
+}
+.navbar-default .navbar-nav > li > .fa.hover {
+	border-radius: 5px;
+	background-color: #E62B1E;
+	color: #fff;
 }
 
 i {
