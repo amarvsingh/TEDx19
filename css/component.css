@@ -94,7 +94,7 @@
 .cs-style-4 figcaption {
 	height: 100%;
 	width: 40%;
-	opacity: 0;
+	opacity: 0.9;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
