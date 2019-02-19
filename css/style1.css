@@ -112,8 +112,8 @@
 \*----------------------------*/
 
 .speaker1-modal .modal-dialog {
-  
- max-width: 970px;
+WIDTH:100%;  
+ 
   margin-top: 60px;
   margin-bottom: 60px;
 }
