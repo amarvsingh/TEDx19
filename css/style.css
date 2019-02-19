@@ -728,7 +728,7 @@ footer {
 
 .navbar-default .navbar-nav > li.active {
 	border-radius: 5px;
-	background-color: #E62B1E;
+	background-color: white!important;
 	color: #fff;
 }
 .navbar-default .navbar-nav > li > .fa.active {
