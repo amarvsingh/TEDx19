@@ -945,7 +945,11 @@ body {
 
 
 .speaker{height:250px;padding:0px;}
-.speaker .speaker-img>img{height:250px!important;}
+.speaker .speaker-img>img{}
+.speaker .speaker-img>img {
+  width: 100%;
+  max-height: 250px!important;
+}
 
 
 /*---------------------------------------
