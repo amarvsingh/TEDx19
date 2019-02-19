@@ -700,7 +700,7 @@ footer {
   }
 
   img {
-    /*width: 100%;*/ /* modified by sneha*/
+    width: 100%; /* modified by sneha*/
   }
 
   #about,
