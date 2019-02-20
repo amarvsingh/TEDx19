@@ -132,13 +132,20 @@ section#speaker .team-thumb .description {
 		.o{
 		padding:0%!important;
 		}
-		.navbar-default{
-		opacity:0.9;
-		}
+		
 		#about1{
 		background-color:black!important;
 		}
 	</style>
+	<script>
+		$(window).scroll(function () {
+if ($(window).scrollTop() >= 50) {
+$('.navbar-default').css('background','white');
+} else {
+$('.navbar-default').css('background','transparent');
+}
+});
+		</script>
 </head>
 <body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 	<!-- Preloader section -->
@@ -762,5 +769,6 @@ section#speaker .team-thumb .description {
 	<script src="https://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js"></script>
 	<script src="js/parallax.js"></script>
 
+	
 </body>
 </html>
