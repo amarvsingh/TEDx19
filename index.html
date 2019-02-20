@@ -168,14 +168,10 @@ section#speaker .team-thumb .description {
     src="https://www.facebook.com/tr?id=534645793587385&ev=PageView
     &noscript=1"/>
     </noscript>
-	<script>
-	$(function () {
-  $(document).scroll(function () {
-	  var $nav = $(".navbar-fixed-top");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	});
-});
-		</script>
+	
+	
+	
+	
 </head>
 <body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 	<!-- Preloader section -->
@@ -251,7 +247,14 @@ section#speaker .team-thumb .description {
 		</div>
 	  </div></center>
 	<!-- Navigation section ends -->
-
+<script>
+	$(function () {
+  $(document).scroll(function () {
+	  var $nav = $(".navbar-fixed-top");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});
+		</script>
 	<!-- Home section Starts -->
 	<section id="home">
 	  <div class="overlay"></div>
