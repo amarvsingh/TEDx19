@@ -139,10 +139,14 @@ section#speaker .team-thumb .description {
 		#about1{
 		background-color:black!important;
 		}
+		.navbar:not(.top-nav-collapse) {
+    background: rgba(255, 255, 255, 0.4) !important;
+}
+		.top-nav-collapse {
+    background-color: #fff !important;
+}
 	</style>
-	
-	<!-- Facebook Pixel Code -->
-    <script>
+<script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -159,8 +163,6 @@ section#speaker .team-thumb .description {
     src="https://www.facebook.com/tr?id=534645793587385&ev=PageView
     &noscript=1"/>
     </noscript>
-    <!-- End Facebook Pixel Code -->
-	
 	
 </head>
 <body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
@@ -168,7 +170,7 @@ section#speaker .team-thumb .description {
 
 <center>
 	<!-- Navigation section starts -->
-	 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	 <div class="navbar navbar-default navbar-fixed-top  scrolling-navbar" role="navigation">
 		<div class="container-fluid">
 
 		  <div class="navbar-header">
