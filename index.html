@@ -105,6 +105,9 @@ section#speaker .team-thumb .description {
   background: white;
   color: black;
 }
+		.navbar-default{
+		opacity:0.9;
+		}
 		 footer p {
   color: black;
 }
@@ -140,9 +143,9 @@ section#speaker .team-thumb .description {
 	<script>
 		$(window).scroll(function () {
 if ($(window).scrollTop() >= 50) {
-$('.navbar-default').css('background','white');
+$('.navbar-default').css('opacity','1');
 } else {
-$('.navbar-default').css('background','transparent');
+$('.navbar-default').css('opacity','0.9');
 }
 });
 		</script>
