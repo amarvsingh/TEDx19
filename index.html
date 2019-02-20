@@ -167,7 +167,14 @@ section#speaker .team-thumb .description {
     src="https://www.facebook.com/tr?id=534645793587385&ev=PageView
     &noscript=1"/>
     </noscript>
-	
+	<script>
+	$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+		</script>
 </head>
 <body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 	<!-- Preloader section -->
@@ -767,15 +774,7 @@ section#speaker .team-thumb .description {
 		</div>
 	</footer>
 	<!-- Footer section Ends -->
-	<script>
-		$(window).scroll(function () {
-if ($(window).scrollTop() >= 50) {
-$('.navbar-default').css('opacity','1');
-} else {
-$('.navbar-default').css('opacity','0.9');
-}
-});
-		</script>
+	
 	<!-- Back top -->
 	<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
 
