@@ -34,7 +34,10 @@ html {
 h1,h2,h3,h4 {
   font-weight: 300;
 }
-
+#iconnav {
+		margin:10px!important;
+		}
+		
 h1 {
   font-size: 3rem;
   line-height: 3rem;
