@@ -858,6 +858,10 @@ i {
   display: block;
   text-align: center!important;
 }
+	.navbar-nav {
+	
+	margin-top:2px!important;
+}
 }
 .navbar-nav {
 	margin: 6.5px -15px;
