@@ -336,6 +336,10 @@ footer {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+	.navbar-nav {
+    margin: 6.5px -15px;
+    margin-top: 6.5px;
+}
 }
 
 
