@@ -1154,4 +1154,17 @@ display: block;
 
 #iconnav {
 		margin:10px!important;
+	padding-top:2px!important;
+	padding-bottom:2px!important;
 		}
+
+
+.cs-style-4 figure:hover figcaption, .cs-style-4 figure.cs-hover figcaption {
+    opacity: 1!important;
+    -webkit-transform: rotateY(0deg)!important;
+    -moz-transform: rotateY(0deg)!important;
+    transform: rotateY(0deg)!important;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s!important;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s!important;
+    transition: transform 0.4s, opacity 0.1s!important;
+}
