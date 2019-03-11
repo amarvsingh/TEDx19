@@ -1089,8 +1089,8 @@ body {
 
 
 .img-circle-hw{
-	max-width: 120px;
-	height: 120px;
+	max-width: 100px;
+	height: 100px;
 	filter: grayscale(1.9) brightness(0.85) contrast(1.00);
 	border-radius:0%!important;
 }
